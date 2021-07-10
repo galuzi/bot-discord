@@ -1,0 +1,9 @@
+{
+    "TOKEN_DISCORD": "", // token do seu discord <-- apague essa mensagem  
+    "GOOGLE_KEY": "", // codigo da api do google <-- apague essa mensagem  
+    "PREFIX": "$",
+    "YTDL": {
+        "filter": "audioonly"
+    }
+
+}
