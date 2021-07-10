@@ -94,7 +94,7 @@ client.on("message", async (msg) => {
                 }
                 if (resultado) {
                     const videoId = resultado.data.items[0].id.videoId;
-                    oQueTocar = 'https://youtube.com/playlist?list=' + videoId;
+                    oQueTocar = 'https://youtube.com/playlist?list=' + id;
                     servidores.server.fila.push(oQueTocar);
                     console.log('Adicionado: ' + oQueTocar);
                 }
